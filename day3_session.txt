@@ -1,0 +1,36 @@
+What is devOps....
+--Ans:DevOps is a set of practices that combines software development an It operations.
+
+What is CICD..?
+--Ans : Continuous Integraion and Continuous Deployment.It is a backbone of modern DevOps.
+
+FlowChart....
+
+You(Developer)
+     |
+     V
+VS Code
+     |
+     V
+GitHub Repo
+     |
+     V
++-------------------------+
+|GitHub Actions           | 
+| Step 1: Checkout Code   | 
+|Step2:List Files         |
+|Step 3: Install deps     |
+|Step 4: run tests        |      
+|Step 5: build app        |
+|Step 6: Complete         |
++-------------------------+
+     |
+     V
+  Netify
+
+
+Commands:
+$ git config --global user.name "Raksha.G"
+$ git config --global user.email "raksha.g1703@gmail.com"
+
+$ git config --list

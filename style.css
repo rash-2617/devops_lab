@@ -1,0 +1,19 @@
+body{
+    background-color: beige;
+    color: rgb(24, 21, 26);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+arrow{
+    color: rgb(241, 71, 29);
+    font-size: 1;
+}
+
+.stage{
+    background-color: blanchedalmond;
+    font-size: small;
+    color: #000;
+}

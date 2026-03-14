@@ -17,12 +17,12 @@ GitHub Repo
      V
 +-------------------------+
 |GitHub Actions           | 
-| Step 1: Checkout Code   | 
-|Step2:List Files         |
-|Step 3: Install deps     |
-|Step 4: run tests        |      
-|Step 5: build app        |
-|Step 6: Complete         |
+|Step 1 : Checkout Code   | 
+|Step 2 : List Files      |
+|Step 3 : Install deps    |
+|Step 4 : run tests       |      
+|Step 5 : build app       |
+|Step 6 : Complete        |
 +-------------------------+
      |
      V
@@ -34,3 +34,29 @@ $ git config --global user.name "Raksha.G"
 $ git config --global user.email "raksha.g1703@gmail.com"
 
 $ git config --list
+
+$ cd desktop
+$ git clone http://github.com/rash-2617/devops_lab(github repo link)
+
+$ cd devops_lab
+$ git status
+$ git add .
+$ git status
+
+#commit
+$ git commit -m "Add index.html and style.css"
+
+$ git push origin main
+
+$ mkdir .github
+$ mkdir .github/workflows
+crate pipeline.yml in workflows 
+
+after witing pipeline.yml code---
+
+execute these code in git terminal
+git add .
+git commit -m "Add GitHub Actions CI pipeline"
+git push origin main
+ 
+
